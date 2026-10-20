@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ruta Rentable</string>
+    <string name="accessibility_description">Lee el texto visible de las ofertas de Uber Driver para estimar la rentabilidad. No acepta ni rechaza viajes.</string>
+</resources>

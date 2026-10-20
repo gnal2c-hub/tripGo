@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:background="#0C1218" android:layout_width="match_parent" android:layout_height="match_parent">
+ <LinearLayout android:padding="20dp" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+  <TextView android:text="Ruta Rentable" android:textColor="#FFD12F" android:textSize="28sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+  <TextView android:text="Calculadora para Uber en moto" android:textColor="#B4C0CA" android:textSize="14sp" android:layout_marginBottom="18dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+  <TextView android:text="Precio nafta ($/litro)" android:textColor="#FFFFFF" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <EditText android:id="@+id/fuelPrice" android:inputType="numberDecimal" android:text="2300" android:textColor="#FFFFFF" android:backgroundTint="#FFD12F" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <TextView android:text="Autonomía (km/litro)" android:textColor="#FFFFFF" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <EditText android:id="@+id/range" android:inputType="numberDecimal" android:text="28" android:textColor="#FFFFFF" android:backgroundTint="#FFD12F" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <TextView android:text="Reserva de mantenimiento ($/km)" android:textColor="#FFFFFF" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <EditText android:id="@+id/maintenance" android:inputType="numberDecimal" android:text="0" android:textColor="#FFFFFF" android:backgroundTint="#FFD12F" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <Button android:id="@+id/overlayPermission" android:text="1. Autorizar ventana flotante" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <Button android:id="@+id/accessibilitySettings" android:text="2. Configurar lectura de ofertas" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <Button android:id="@+id/startOverlay" android:text="MOSTRAR BURBUJA FLOTANTE" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <TextView android:text="Costo de nafta: $82,14/km con tus valores actuales. La lectura automática depende de que Uber exponga el precio y los kilómetros como texto accesible; si no, deberás introducirlos manualmente. No se aceptan ni rechazan viajes automáticamente." android:textColor="#B4C0CA" android:textSize="13sp" android:layout_marginTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ </LinearLayout>
+</ScrollView>
